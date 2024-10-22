@@ -15,15 +15,15 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    {/* I am Iulian Plamadeala a <span>Senior Software Developer</span> */}
+                    <span>Senior Software Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    Hi! My name is Iulian. I am a versatile Software Engineer with expertise in
+                    Android Development, including AOSP(Android Open Source Project) development and
+                    Android TV development. I am proficient in Java & Kotlin, and Flutter, enabling me to 
+                    build robust and feature-rich applications for a wide range of Android devices and platforms.
+                    Additionally, I have experience in Game development with C# & Unity and Cocos Creator.
                   </p>
                 </div>
               </div>
@@ -32,27 +32,27 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>www.piulian.vercel.app</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>piulian@hotmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>SSC</span>
+                        Degree : <span>Bachelor's Degree</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+1 (613) 751-8039</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Stittsville, ON Canada</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -83,31 +83,31 @@ const About: NextPage = () => {
                 <div className="skills padd-15">
                   <div className="row">
                     <div className="skill-item padd-15">
-                      <h5>Html5</h5>
+                      <h5>Java</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
+                        <div className="progress-in" style={{ width: "90%" }} />
+                        <div className="skill-percent">90%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Css3</h5>
+                      <h5>Kotlin</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "60%" }} />
                         <div className="skill-percent">60%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
+                      <h5>Flutter</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "70%" }} />
                         <div className="skill-percent">70%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Unity</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "80%" }} />
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                   </div>
@@ -123,47 +123,19 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2010 to 2014
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                            University of Bucharest
+                          </h4>
+                          <h4 className="timeline-subtitle">
+                            Bachelor's Degree in Computer Science
                           </h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
-                          </h6>
-                          <h4 className="timeline-title">
-                            Diploma in Civil Engineering
-                          </h4>
-                          <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
-                          </h6>
-                          <h4 className="timeline-title">
-                            Secondary School Certificate
-                          </h4>
-                          <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
+                            Passionate about Android application development and also available to learn
+                            new Mobile Technologies.<br/>
+                            Liked to play mobile games and developing games with Unity.<br/>
+                            Had a bit exp in iPhone and Window app development.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -176,44 +148,94 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
+
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2022 to Present
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">Senior Mobile Developer</h4>
+                          <h4 className="timeline-subtitle">Sunshine</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                            I've developed serveral cross-platform Android and iOS apps in Flutter,
+                            and refactored the source code for apps that help to reduce users' mobile traffic.                            
                           </p>
                         </div>
                         {/* Timeline Item end */}
+
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2021 to 2022
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">Mobile App Developer</h4>
+                          <h4 className="timeline-subtitle">ActiveHealth Management. Inc</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
+                            I worked on logical modules on log health-related data, and designed back-end for front-end.
+                            Also worked on Flutter & Firebase & Node.js.
                           </p>
                         </div>
                         {/* Timeline Item end */}
+
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2020 to 2021
                           </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
+                          <h4 className="timeline-title">Unity Game Developer</h4>
+                          <h4 className="timeline-subtitle">Zlodey Studios LTD</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                            I worked on creation of prototypes, full game development cycle from concept to release,
+                            market research, competitor analysis, reverse engineering of projects,
+                            creation of marketing materials, mentoring.
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2019 to 2020
+                          </h6>
+                          <h4 className="timeline-title">Game Developer</h4>
+                          <h4 className="timeline-subtitle">The PlayMax Group</h4>
+                          <p className="timeline-text">
+                            I developed many mobile games with Unity and Cocos and 
+                            published the games on different stores and machines.
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2016 to 2019
+                          </h6>
+                          <h4 className="timeline-title">Android Engineer</h4>
+                          <h4 className="timeline-subtitle">Cronos Technologies</h4>
+                          <p className="timeline-text">
+                            I worked on Flutter, and associated with mobile app development 
+                            including various aspects like coding, testing, client communication, and requirement gathering.
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2014 to 2016
+                          </h6>
+                          <h4 className="timeline-title">Mobile Developer</h4>
+                          <h4 className="timeline-subtitle">Appscend</h4>
+                          <p className="timeline-text">
+                            I worked on building android apps (Mobile & TV) to deliver video and audio content, and
+                            implemented the Android component of transfer-related cross-functional features.                            
                           </p>
                         </div>
                         {/* Timeline Item end */}

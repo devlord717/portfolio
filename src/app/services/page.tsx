@@ -11,79 +11,58 @@ const Service: NextPage = () => {
       </div>
     </div>
     <div className="row">
-      {/* Service Item 1: Logo Design */}
+      {/* Service Item 1: Mobile App Development */}
       <div className="service-item padd-15">
         <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-paint-brush" /></div>
-          <h4>Professional Logo Design</h4>
-          <p>Elevate your brand with a unique and memorable logo. Our expert designers will create a distinctive
-            logo
-            that reflects your business identity and leaves a lasting impression on your audience.</p>
+          <div className="icon"><i className="fa fa-mobile" /></div>
+          <h4>Mobile App Development</h4>
+          <p>
+            Focuses on creating software application that run on mobile devices
+            like smartphones and tablets. Cross-platform projects using Flutter.
+        </p>
         </div>
       </div>
       {/* Service Item 1 End */}
-      {/* Service Item 2: Web Design */}
+
+      {/* Service Item 2: Android Engineering*/}
       <div className="service-item padd-15">
         <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-laptop" /></div>
-          <h4>Custom Web Design</h4>
-          <p>Create a stunning online presence with our custom web design services. Wel will tailor a website that
-            not only
-            looks impressive but also delivers a seamless user experience, helping you achieve your online goals.
+          <div className="icon"><i className="fa fa-wrench" /></div>
+          <h4>Android Engineering</h4>
+          <p>Speicalizes in bulding a in app for the Android platform using languages like Java and Kotlin,
+            involves developing features like location services, background processing, and push notifications.
           </p>
         </div>
       </div>
       {/* Service Item 2 End */}
-      {/* Service Item 3: WordPress */}
+
+      {/* Service Item 3: Game developemtn */}
       <div className="service-item padd-15">
         <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-wordpress" /></div>
-          <h4>WordPress Development</h4>
-          <p>Harness the power of WordPress for your website. Our experts will build a feature-rich and scalable
-            WordPress site that empowers you to manage content effortlessly and stay ahead in the digital
-            landscape.</p>
-        </div>
-      </div>
-      {/* Service Item 3 End */}
-      {/* Service Item 4: Web Development */}
-      <div className="service-item padd-15">
-        <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-code" /></div>
-          <h4>Web Development</h4>
-          <p>Turn your digital ideas into reality with our web development solutions. We specialize in crafting
-            robust
-            and dynamic websites that are tailored to meet your specific business needs and objectives.</p>
-        </div>
-      </div>
-      {/* Service Item 4 End */}
-      {/* Service Item 5: Video Editing */}
-      <div className="service-item padd-15">
-        <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-film" /></div>
-          <h4>Professional Video Editing</h4>
-          <p>Enhance your video content with our professional video editing services. We will transform your raw
-            footage
-            into polished, engaging videos that captivate your audience and convey your message effectively.</p>
-        </div>
-      </div>
-      {/* Service Item 5 End */}
-      {/* Service Item 6: SEO Optimization */}
-      <div className="service-item padd-15">
-        <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-rocket" /></div>
-          <h4>SEO Optimization</h4>
-          <p>Boost your online visibility and drive organic traffic to your website with our SEO optimization
-            services.
-            Our experts employ proven strategies to improve your search engine rankings and grow your online
-            presence.
+          <div className="icon"><i className="fa fa-gamepad" /></div>
+          <h4>Game development</h4>
+          <p>Focuses on creating 2D & 3D games using Unity, a popular game engine. <br/>
+            Involves creating game mechanics, interactive env, AI, and multiplayer networking.
           </p>
         </div>
       </div>
-      {/* Service Item 6 End */}
+      {/* Service Item 3 End */}
+      
+      {/* Service Item 4: Technical Support */}
+      <div className="service-item padd-15">
+        <div className="service-item-inner">
+          <div className="icon"><i className="fa fa-graduation-cap" /></div>
+          <h4>Technical Support</h4>
+            <p>
+              Provides assistance to users and developers in troubleshooting and resolving technical issues.
+              Includes customer service, issue and sometimes debugging.
+            </p>
+        </div>
+      </div>
+      {/* Service Item 4 End */}      
     </div>
   </div>
 </section>
-
 
     </>
   );
