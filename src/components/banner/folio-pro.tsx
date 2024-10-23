@@ -5,11 +5,11 @@ export default function FolioProBanner() {
     <div className="banner">
       <div className="banner-wrap">
         <p className="banner-desc">
-          <span className="banner-card">Folio Pro</span> Be the first to experience Folio Pro
+          <span className="banner-card">Best</span> Everything will be better and better
         </p>
-        <a href="https://folio-pro.alsiam.com" target="_blank" className="banner-btn">
+        {/* <a href="https://folio-pro.alsiam.com" target="_blank" className="banner-btn">
           Get it Now <IoIosArrowRoundForward />
-        </a>
+        </a> */}
       </div>
     </div>
   );

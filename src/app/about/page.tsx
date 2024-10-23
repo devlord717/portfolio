@@ -30,21 +30,21 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="personal-info padd-15">
                   <div className="row">
-                    <div className="info-item padd-15">
+                    {/* <div className="info-item padd-15">
                       <p>
                         Website : <span>www.piulian.vercel.app</span>
                       </p>
-                    </div>
+                    </div> */}
                     <div className="info-item padd-15">
                       <p>
                         Email : <span>piulian@hotmail.com</span>
                       </p>
                     </div>
-                    <div className="info-item padd-15">
+                    {/* <div className="info-item padd-15">
                       <p>
                         Degree : <span>Bachelor's Degree</span>
                       </p>
-                    </div>
+                    </div> */}
                     <div className="info-item padd-15">
                       <p>
                         Phone : <span>+1 (613) 751-8039</span>
@@ -64,8 +64,8 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="buttons padd-15">
                       <a
-                        href="/assets/docs/resume.pdf"
-                        target="_target"
+                        href="docs/resume.pdf"
+                        target="_blank"
                         className="btn"
                       >
                         Download CV
@@ -85,26 +85,33 @@ const About: NextPage = () => {
                     <div className="skill-item padd-15">
                       <h5>Java</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "90%" }} />
-                        <div className="skill-percent">90%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Kotlin</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
+                        <div className="progress-in" style={{ width: "80%" }} />
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Flutter</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
+                        <div className="progress-in" style={{ width: "90%" }} />
+                        <div className="skill-percent">90%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Unity</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                    </div>                    
+                    <div className="skill-item padd-15">
+                      <h5>Node.js</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "80%" }} />
                         <div className="skill-percent">80%</div>
