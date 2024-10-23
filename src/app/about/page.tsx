@@ -171,7 +171,7 @@ const About: NextPage = () => {
                             University of Bucharest
                           </h4>
                           <h4 className="timeline-subtitle">
-                            Bachelor \'s Degree in Computer Science
+                            Bachelor &lsquo;s Degree in Computer Science
                           </h4>
                           <p className="timeline-text">
                             Passionate about Android application development and also available to learn
