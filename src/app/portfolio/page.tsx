@@ -162,7 +162,7 @@ const Portfolio: NextPage = () => {
                 </div>
                 <a href="https://play.google.com/store/apps/details?id=com.ZlodeyStudios.DateRunner&pli=1" >
                 <div className="portfolio-info">
-                  <h4>Date'n'Run</h4>
+                  <h4>Date&lsquo;n&rsquo;Run</h4>
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>

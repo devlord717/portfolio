@@ -42,7 +42,7 @@ const About: NextPage = () => {
                     </div>
                     {/* <div className="info-item padd-15">
                       <p>
-                        Degree : <span>Bachelor's Degree</span>
+                        Degree : <span>Bachelor&lsquo;s Degree</span>
                       </p>
                     </div> */}
                     <div className="info-item padd-15">
@@ -200,8 +200,8 @@ const About: NextPage = () => {
                           <h4 className="timeline-title">Senior Mobile Developer</h4>
                           <h4 className="timeline-subtitle">Sunshine</h4>
                           <p className="timeline-text">
-                            I've developed serveral cross-platform Android and iOS apps in Flutter,
-                            and refactored the source code for apps that help to reduce users' mobile traffic.                            
+                            I&lsquo;ve developed serveral cross-platform Android and iOS apps in Flutter,
+                            and refactored the source code for apps that help to reduce users&lsquo; mobile traffic.                            
                           </p>
                         </div>
                         {/* Timeline Item end */}
