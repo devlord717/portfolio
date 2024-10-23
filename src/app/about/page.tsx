@@ -95,9 +95,23 @@ const About: NextPage = () => {
                         <div className="progress-in" style={{ width: "80%" }} />
                         <div className="skill-percent">80%</div>
                       </div>
+                    </div>              
+                    <div className="skill-item padd-15">
+                      <h5>Dart</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "85%" }} />
+                        <div className="skill-percent">85%</div>
+                      </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Flutter</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "90%" }} />
+                        <div className="skill-percent">90%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>C#</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "90%" }} />
                         <div className="skill-percent">90%</div>
@@ -109,12 +123,33 @@ const About: NextPage = () => {
                         <div className="progress-in" style={{ width: "100%" }} />
                         <div className="skill-percent">100%</div>
                       </div>
-                    </div>                    
+                    </div>                      
+                    <div className="skill-item padd-15">
+                      <h5>Firebase</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "85%" }} />
+                        <div className="skill-percent">85%</div>
+                      </div>
+                    </div>            
                     <div className="skill-item padd-15">
                       <h5>Node.js</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "80%" }} />
                         <div className="skill-percent">80%</div>
+                      </div>
+                    </div>                  
+                    <div className="skill-item padd-15">
+                      <h5>Python</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "60%" }} />
+                        <div className="skill-percent">60%</div>
+                      </div>
+                    </div>            
+                    <div className="skill-item padd-15">
+                      <h5>Cocos 2D</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "95%" }} />
+                        <div className="skill-percent">95%</div>
                       </div>
                     </div>
                   </div>
@@ -136,7 +171,7 @@ const About: NextPage = () => {
                             University of Bucharest
                           </h4>
                           <h4 className="timeline-subtitle">
-                            Bachelor's Degree in Computer Science
+                            Bachelor \'s Degree in Computer Science
                           </h4>
                           <p className="timeline-text">
                             Passionate about Android application development and also available to learn
